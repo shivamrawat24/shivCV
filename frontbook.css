@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin: 0px ;
+    padding: 0px;
+    font-family: monospace;
+    color: whitesmoke;
+}
+.full-page{
+    background-color:rgb(115, 132, 90);
+    /* color: red; */
+    height: auto;
+}
+.full-page ul{
+    height: 42px;
+    border-radius: 20px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full-page ul li{
+    list-style: none;
+}
+.full-page ul li a{
+    font-family:monospace;
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+    margin: 0px 50px;
+}
+.full-page ul li a:hover{
+    color: white;
+}
+
+.full-page .first-impression{
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 470px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 10px;
+    position: relative;
+    gap: 20px;
+    /* color: white; */
+    background-blend-mode:screen;
+}
+.first-impression .imgs-holder{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    /* background-color: lightgray; */
+    padding: 10px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.first-impression .imgs-holder .bot-img{
+    width: 200px;
+    height: 150px;
+    object-fit:cover;
+    border-radius: 20px;
+    border: 1px solid rgb(93, 70, 41);
+    margin-left: 10px;
+    box-shadow: 1px 4px 0px 2px rgb(93, 70, 41);
+}
+.imgs-holder .top-img{
+   width: 350px;    
+   height: 200px;
+    margin-left: 200px;
+    position: absolute;
+    top: 190px;
+    left: 220px;
+    border-radius: 20px;
+    border: 1px solid rgb(93, 70, 41);
+    box-shadow: 1px 4px 0px 2px rgb(51, 36, 17);
+}
+.first-impression .addition{
+   width: 200px;    
+   height: 150px;
+   border-radius: 20px;
+   /* background-color: lightgray; */
+   /* display: flex;
+   align-items: center;
+    justify-content: center; */
+    margin-left: 217px;
+    position: absolute;
+    top: 40px;
+    box-shadow: 1px 4px 0px 2px rgb(93, 70, 41);
+}
+
+.first-impression .addition img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid rgb(93, 70, 41);
+}
+
+.first-impression .text-holder{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    right: 50px;
+    /* background-color: lightpink; */
+    margin-left: 100px;
+    padding-top: 200px;
+}
+.text-holder h3{
+    font-size: 38px;
+    /* color:black; */
+}
+.text-holder p{
+    font-size: 16px;
+    margin-top: 10px;
+    /* color: black; */
+}
+.text-holder button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.text-holder button:hover{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+
+.full-page .insight{
+    height: auto;
+    margin: 10px;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+.insight h4{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.insight .parts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.parts .part-1{
+    height: auto;
+    width: 450px;
+    margin: 30px 20px;
+}
+.part-1 img{
+    height: 300px;
+    width: 450px;
+    border-radius: 20px;
+}
+.part-1 p{
+    font-size: 16px;
+    padding: 0px 10px 10px;
+}
+.part-1 h3{
+    color: rgb(24, 22, 22);
+    font-size: 18px;
+    text-decoration: underline;
+    padding: 10px 10px 10px 0px;
+}
+.parts .part-2{
+    height: auto;
+    width: 450px;
+    margin: 30px 20px;
+}
+.part-2 img{
+    height: 300px;
+    width: 450px;
+    border-radius: 20px;
+}
+.part-2 p{
+    font-size: 16px;
+    padding: 0px 10px 10px;
+}
+.part-2 h3{
+    color: rgb(24, 22, 22);
+    font-size: 18px;
+    text-decoration: underline;
+    padding: 10px 10px 10px 0px;
+}
+.full-page .ending{
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+}
